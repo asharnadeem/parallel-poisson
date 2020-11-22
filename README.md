@@ -1,1 +1,2 @@
-# parallel-poisson
+# CG Method for Poisson
+Using the HPCF (High Performance Computing Facility), the Poisson Problem can be solved using the CG Method. Parallel performance studies can be run to test and analyze the performance of the solution, especially when dealing with low memories at very large test values. Scalability studies and their results showed excellent speedup for both blocking and non-blocking implementations, while efficiency was excellent at lower processes for all mesh values and also for large processes on the median range of mesh values. Results showed parallel programming increasing speed and efficiency across the tests run on the HPCF cluster, with blocking implementation being faster and more efficient.
